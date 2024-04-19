@@ -1,0 +1,16 @@
+.rating {
+    unicode-bidi: bidi-override;
+    direction: rtl;
+}
+.rating span {
+    font-size: 25px;
+    cursor: pointer;
+    color: #ccc;
+    margin-right: 5px;
+}
+.rating span:hover,
+.rating span:hover ~ span,
+.rating span:hover:before,
+.rating span:hover ~ span:before {
+    color: #ffcc00;
+}
